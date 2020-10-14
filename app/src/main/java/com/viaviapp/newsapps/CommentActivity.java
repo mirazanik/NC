@@ -6,11 +6,11 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.appcompat.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
@@ -22,10 +22,7 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.example.adapter.CommentAdapter;
-import com.example.adapter.LatestAdapter;
-import com.example.fragment.LatestFragment;
 import com.example.item.CommentList;
-import com.example.item.ItemLatest;
 import com.example.util.Constant;
 import com.example.util.JsonUtils;
 
